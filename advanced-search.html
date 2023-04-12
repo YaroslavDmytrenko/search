@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Продвинутий пошук зображень Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+  <nav>
+      <ul>
+          <li><a href="index.html">Google Search</a></li>
+          <li><a href="image-search.html">Image Search</a></li>
+          <li><a href="advanced-search.html">Advanced Search</a></li>
+          <li><a href="https://www.google.com/search?q=найкращі+кінофільми+2022&btnI">I'm Feeling Lucky</a></li>
+      </ul>
+  </nav>
+</header>
+<body>
+	<form action="https://www.google.com/search" method="get">
+    <label for="all-words">Знайти сторінки із... "усіма цими словами":</label><br>
+    <input type="text" id="all-words" name="as_q" size="50"><br>
+    <label for="exact-phrase">Знайти сторінки з... "саме цим словом або фразою":</label><br>
+    <input type="text" id="exact-phrase" name="as_epq" size="50"><br>
+    <label for="any-words">Знайти сторінки з... "будь-яким із цих слів":</label><br>
+    <input type="text" id="any-words" name="as_oq" size="50"><br>
+    <label for="none-words">Знайти сторінки з... "жодне з цих слів":</label><br>
+    <input type="text" id="none-words" name="as_eq" size="50"><br><br>
+    <input type="submit" value="Пошук">
+  </form>
+</body>
+</html>
